@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "b073e6ee-7da5-4b43-9f89-68ba410f7bd4",
+		"name": "Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "90a1033f-0230-404b-a6e5-880a56c728d8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sprintsapi.zoho.com/zsapi/team/{{teamId}}/projects/{{projectId}}/sprints/{{sprintId}}/item/?action=data&index=1&range=25&subitem=true&searchby={{searchBy}}&searchvalue={{searchValue}}",
+					"protocol": "https",
+					"host": [
+						"sprintsapi",
+						"zoho",
+						"com"
+					],
+					"path": [
+						"zsapi",
+						"team",
+						"{{teamId}}",
+						"projects",
+						"{{projectId}}",
+						"sprints",
+						"{{sprintId}}",
+						"item",
+						""
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "data"
+						},
+						{
+							"key": "index",
+							"value": "1"
+						},
+						{
+							"key": "range",
+							"value": "25"
+						},
+						{
+							"key": "subitem",
+							"value": "true"
+						},
+						{
+							"key": "searchby",
+							"value": "{{searchBy}}"
+						},
+						{
+							"key": "searchvalue",
+							"value": "{{searchValue}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
