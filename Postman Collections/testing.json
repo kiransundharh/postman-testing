@@ -14,52 +14,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": {
-					"raw": "https://sprintsapi.zoho.com/zsapi/team/{{teamId}}/projects/{{projectId}}/sprints/{{sprintId}}/item/?action=data&index=1&range=25&subitem=true&searchby={{searchBy}}&searchvalue={{searchValue}}",
-					"protocol": "https",
-					"host": [
-						"sprintsapi",
-						"zoho",
-						"com"
-					],
-					"path": [
-						"zsapi",
-						"team",
-						"{{teamId}}",
-						"projects",
-						"{{projectId}}",
-						"sprints",
-						"{{sprintId}}",
-						"item",
-						""
-					],
-					"query": [
-						{
-							"key": "action",
-							"value": "data"
-						},
-						{
-							"key": "index",
-							"value": "1"
-						},
-						{
-							"key": "range",
-							"value": "25"
-						},
-						{
-							"key": "subitem",
-							"value": "true"
-						},
-						{
-							"key": "searchby",
-							"value": "{{searchBy}}"
-						},
-						{
-							"key": "searchvalue",
-							"value": "{{searchValue}}"
-						}
-					]
-				}
+				"url": ""
 			},
 			"response": []
 		},
